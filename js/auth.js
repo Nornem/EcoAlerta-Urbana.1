@@ -2,21 +2,16 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // ==========================================
-  // 0. SIMULACIÓN DE BASE DE DATOS DE USUARIOS
-  // ==========================================
-  // Usuario por defecto para probar la validación
+
   const usuariosRegistrados = [
     {
       email: "vecino@ecoalerta.com",
-      password: "123456",
+      password: "EcoAlerta2026",
       nombre: "Vecino de Prueba"
     }
   ];
 
-  // ==========================================
-  // 1. SELECCIÓN DE ELEMENTOS DEL DOM
-  // ==========================================
+ 
   const loginForm = document.getElementById('login-form');
   const emailInput = document.getElementById('email');
   const passwordInput = document.getElementById('password');
